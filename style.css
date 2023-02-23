@@ -94,7 +94,7 @@ body{
 }
 
 .hide{
-  display: none;
+  content: '\f032';
 }
 
 .tooltip{

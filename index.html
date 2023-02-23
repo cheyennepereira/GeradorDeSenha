@@ -22,12 +22,13 @@
     <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
 
     <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
-  </div>
-
-  <div id="container-password" onclick="copyPassword()" class="container-password hide">
-    <span class="title">Sua senha foi gerada!:</span>
-    <span id="password"  class="password"></span>
-    <span class="tooltip">Clique na senha para copiar. 👆</span>
+    
+    <div id="container-password" onclick="copyPassword()" class="container-password hide">
+      <span class="title">Sua senha foi gerada!:</span>
+      <span id="password"  class="password"></span>
+      <button id="button-copy-password"<div>copy password</div></button>
+    </div>
+    
   </div>
 
   <script src="script.js"></script>
